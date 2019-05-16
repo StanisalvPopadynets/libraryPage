@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact us</h1>
+    </header>
+
+    <div class="wrapper">
+        <div class="info">
+            <p>00000, м. Київ, вул. Kиївська, XX</p>
+            <p>Телефон: (XXX) XXX-XX-XX</p>
+            <p>Факс: (XXX) XXX-XX-XX</p>
+            <p>Email : XXX@XXXXX.gmail.com</p>
+        </div>
+
+        <div id="map">
+            Map
+        </div>    
+    </div>
+
+    <script>
+        function initMap(){
+            let options = {
+                zoom: 14,
+                center: {lat: 50.450603, lng: 30.4686389}
+            }
+
+            let map = new google.maps.Map(document.getElementById('map'), options);
+        
+            let marker = new google.maps.Marker({
+                position: {lat: 50.450603, lng: 30.4686389}
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3jXMN_z8mWeBfmdcPZBj7RbR0KTlGABA&callback=initMap"
+    async defer></script>
+</body>
+</html>

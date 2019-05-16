@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-div {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.bar {
+    width: 50%;
+    color: rgb(48, 48, 48);
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    /* margin-top: 100px; */
+    background: #D3D3D3;
+    border-radius: 5px;
+}
+
+#results {
+    margin: 30px;
+}
+
+.res:not(:last-child) {
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.res button {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 3px; 
+    color: whitesmoke;
+    background: #3CB371;
+}
+
+.res button:hover {
+    cursor: pointer;
+    background: rgb(37, 158, 91);
+}
