@@ -25,6 +25,10 @@ html {
     letter-spacing: 1px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1, h2 {
     font-size: 5em;
 }
