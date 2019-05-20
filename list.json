@@ -4,160 +4,182 @@
         "author": {
           "firstName": "John",
           "lastName": "Scalzi"
-        }
+        },
+        "available": true
     },
     {
         "title": "The Lock Artist",
         "author": {
           "firstName": "Steve",
           "lastName": "Hamilton"
-        }
+        },
+        "available": true
     },
     {
         "title": "HTML5",
         "author": {
           "firstName": "Remy",
           "lastName": "Sharp"
-        }
+        },
+        "available": true
     },
     {
         "title": "Right Ho Jeeves",
         "author": {
           "firstName": "P.D",
           "lastName": "Woodhouse"
-        }
+        },
+        "available": true
     },
     {
         "title": "The Code of the Wooster",
         "author": {
           "firstName": "P.D",
           "lastName": "Woodhouse"
-        }
+        },
+        "available": true
     },
     {
         "title": "Thank You Jeeves",
         "author": {
           "firstName": "P.D",
           "lastName": "Woodhouse"
-        }
+        },
+        "available": true
     },
     {
         "title": "The DaVinci Code",
         "author": {
           "firstName": "Dan",
           "lastName": "Brown"
-        }
+        },
+        "available": false
     },
     {
         "title": "Angels & Demons",
         "author": {
           "firstName": "Dan",
           "lastName": "Brown"
-        }
+        },
+        "available": true
     },
     {
         "title": "The Silmarillion",
         "author": {
           "firstName": "J.R.R",
           "lastName": "Tolkien"
-        }
+        },
+        "available": true
     },
     {
         "title": "Syrup",
         "author": {
           "firstName": "Max",
           "lastName": "Barry"
-        }
+        },
+        "available": true
     },
     {
         "title": "The Lost Symbol",
         "author": {
           "firstName": "Dan",
           "lastName": "Brown"
-        }
+        },"available": false
     },
     {
         "title": "The Book of Lies",
         "author": {
           "firstName": "Brad",
           "lastName": "Meltzer"
-        }
+        },
+        "available": true
     },
     {
         "title": "Lamb",
         "author": {
           "firstName": "Christopher",
           "lastName": "Moore"
-        }
+        },
+        "available": true
     },
     {
         "title": "Fool",
         "author": {
           "firstName": "Christopher",
           "lastName": "Moore"
-        }
+        },
+        "available": true
     },
     {
         "title": "Incompetence",
         "author": {
           "firstName": "Rob",
           "lastName": "Grant"
-        }
+        },
+        "available": true
     },
     {
         "title": "Fat",
         "author": {
           "firstName": "Rob",
           "lastName": "Grant"
-        }
+        },
+        "available": true
     },
     {
         "title": "Colony",
         "author": {
           "firstName": "Rob",
           "lastName": "Grant"
-        }
+        },
+        "available": false
     },
     {
         "title": "Backwards, Red Dwarf",
         "author": {
           "firstName": "Rob",
           "lastName": "Grant"
-        }
+        },
+        "available": false
     },
     {
         "title": "The Grand Design",
         "author": {
           "firstName": "Stephen",
           "lastName": "Hawking"
-        }
+        },
+        "available": false
     },
     {
         "title": "The Book of Samson",
         "author": {
           "firstName": "David",
           "lastName": "Maine"
-        }
+        },
+        "available": true
     },
     {
         "title": "The Preservationist",
         "author": {
           "firstName": "David",
           "lastName": "Maine"
-        }
+        },
+        "available": true
     },
     {
         "title": "Fallen",
         "author": {
           "firstName": "David",
           "lastName": "Maine"
-        }
+        },
+        "available": true
     },
     {
         "title": "Monster 1959",
         "author": {
           "firstName": "David",
           "lastName": "Maine"
-        }
+        },
+        "available": false
     }
   ]

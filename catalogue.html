@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,12 @@
 </head>
 <body>
     <div class="input-div">
-        <input type="text" id="search" class="bar" placeholder="Шукати...">
+        <input type="text" id="search" class="bar" placeholder="Search...">
+    </div>
+
+    <div id="buttonBox">
+        <button id="previous" class="btn"> &lt;</button>
+        <button id="next" class="btn">&gt;</button>
     </div>
 
     <div id="results">
@@ -21,10 +26,27 @@
         <p>Author Name</p>
         <button>Order</button>
     </div> -->
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>    
+   
+    <div id="my-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Order</h2>
+            </div>
+            <div class="modal-body">
+                <div class="date-div">
+                    <label for="from">From</label>
+                    <input type="date" id="from">
+                </div>
+                <div class="date-div">
+                    <label for="to">To</label>
+                    <input type="date" id="to">
+                </div>
+                <button id="submit-order">Submit</button>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.4/fuse.min.js"></script>
     <script src="search.js"></script>
 </body>

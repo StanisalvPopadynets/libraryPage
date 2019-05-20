@@ -1,7 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgba(82,255,96,1) 0%, rgba(64,231,120,1) 68%, rgba(64,231,120,1) 98%);
 }
 
 .input-div {
@@ -15,21 +23,44 @@ html, body {
     padding: 10px 20px;
     font-size: 20px;
     border: none;
-    /* margin-top: 100px; */
-    background: #D3D3D3;
+    background: whitesmoke;
     border-radius: 5px;
+}
+
+#buttonBox {
+    text-align: center;
+}
+
+#buttonBox .btn {
+    padding: 4px 6px;
+    border: 0;
+}
+
+#buttonBox .btn:hover {
+    background: lightgray;
 }
 
 #results {
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.res:not(:last-child) {
-    padding-bottom: 30px;
-    border-bottom: 1px solid gray;
+.res {
+    margin: 20px 0;
+    color: rgb(49, 49, 49);
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    width: 75%;
 }
 
-.res button {
+.res p {
+    margin: 15px 0;
+}
+
+.res .order-btn {
     padding: 5px 10px;
     border: 0;
     border-radius: 3px; 
@@ -37,7 +68,92 @@ html, body {
     background: #3CB371;
 }
 
-.res button:hover {
+.res .order-btn:hover {
     cursor: pointer;
     background: rgb(37, 158, 91);
 }
+
+/* Modal form styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+.modal-content {
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+  
+.modal-header {
+    background: #3CB371;
+    padding: 15px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+  
+.modal-body {
+    padding: 10px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.modal-body #submit-order {
+    padding: 5px;
+    color: whitesmoke;
+    background: #3b444b;
+    border: 0;
+    border-radius: 4px;
+}
+
+.modal-body #submit-order:hover {
+    background: #000;
+}
+
+.date-div {
+    display: flex;
+    margin: 10px;
+    /* width: 50%; */
+}
+
+.date-div label {
+    flex: 1;
+    padding: 5px;
+}
+
+.date-div input {
+    flex: 5;
+}
+  
+.close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

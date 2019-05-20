@@ -47,7 +47,6 @@ header {
     font-family: 'Open Sans', sans-serif;
     background-color: #F8F8F8;
     padding: 2vh 5vw;
-    /* height: 11vh; */
     position: sticky;
     top: 0;
     z-index: 10;
@@ -66,13 +65,7 @@ header {
     display: none;
 }
 
-/* header .wrapper {
-    display: flex;
-    align-items: center;
-} */
-
 header nav {
-    /* margin-left: auto; */
     float: right;
     margin: 10px;
 }
@@ -119,7 +112,7 @@ header nav {
 
 .welcome-div {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
 }

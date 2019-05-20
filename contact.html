@@ -35,8 +35,9 @@
             let map = new google.maps.Map(document.getElementById('map'), options);
         
             let marker = new google.maps.Marker({
-                position: {lat: 50.450603, lng: 30.4686389}
-            });
+                position: {lat: 50.450603, lng: 30.4686389},
+                map: map
+            }); 
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3jXMN_z8mWeBfmdcPZBj7RbR0KTlGABA&callback=initMap"

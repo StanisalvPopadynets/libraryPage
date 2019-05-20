@@ -14,6 +14,7 @@ body {
     background-size: cover;
     background-blend-mode: multiply; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -23,8 +24,9 @@ header {
 }
 
 .wrapper {
-    padding: 0 5vw;
     display: flex;
+    padding: 0 5vw;
+    margin-bottom: 30px; 
 }
 
 .info {
@@ -37,11 +39,22 @@ header {
     color: whitesmoke;
     background: #3CB371;
     opacity: 0.9;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 #map {
-    flex: 1;
+    flex: 1 1 200px;
     margin-left: 40px;
+    border-radius: 6px;
 }
 
+@media (max-width: 1000px) {
+    .wrapper {
+        flex-direction: column; 
+    }
+
+    #map {
+        flex-basis: 400px;
+        margin-left: 0;
+    }
+}
